@@ -1,0 +1,99 @@
+body {
+    background-image: linear-gradient(to bottom, white, rgb(93, 93, 235));
+}
+
+
+* { /*Configurações globais das CSS, todos vão receber isto. */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* Cabeçalho */
+
+.header {
+    background-color: #4c45b2;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header-title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.nav-list {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+
+h2 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.p {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+
+}
+
+#sobre {
+    font-size: 20px;
+}
+
+.publicado {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 0.8rem;
+}
+
+h3 {
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.promos {
+    font-weight: bolder;
+
+}
+
+.aside > p {
+    margin-bottom: 20px;
+}
+
+.footer {
+    margin-top: 20px;
+    background-color: #4c45b2;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
